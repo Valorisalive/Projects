@@ -1,0 +1,40 @@
+MATLAB Commands:
+1. clc : clears command window
+2. clear : removes all variables from workspace
+3. close all: closes all figure windows
+4. whos : lists current variables with details, who : no details
+5. help <command> : explains the mentioned command
+6. doc <command> : shows extensive documentation for command
+7. save : saves workspace variables
+8. load : loads saved variables (.mat files)
+
+9. length(v) : size of a vector
+
+10. plot(x,y) : 2D line plot
+plot(x,y,'r'): red line, '--': dotted line, 'o': points
+11. xlabel(''), ylabel('') : put labels on axes
+12. title(''): title for plots
+13. grid on/off : turns grid lines on/off in figures
+14. hold on/off : add multiple plots to same axes
+
+15.
+axis([xmin xmax ymin ymax])   % Set custom axis limits
+axis equal                    % Equal scaling for x and y
+axis tight                    % Fit axes tightly around data
+axis off                      % Hide axes
+axis on                       % Show axes
+
+16.
+bar(y)             % Bar chart of vector y
+bar(x, y)          % Specify x values
+barh(y)            % Horizontal bar chart
+
+17.
+pie(y)                     % Pie chart of vector y
+pie(y, labels)             % With text labels
+pie(y, explode)            % Explode one slice (set 1 for that element)
+
+18.
+img = imread('peppers.png');   % MATLAB has this sample image
+imshow(img);                   % Display it
+
